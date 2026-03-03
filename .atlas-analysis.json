@@ -1,0 +1,120 @@
+{
+  "projectType": "framework",
+  "projectName": "grammY",
+  "projectDescription": "The Telegram Bot Framework for building powerful bots with ease",
+  "theme": "palm",
+  "primaryColor": "#3b82f6",
+  "lightColor": "#60a5fa",
+  "darkColor": "#2563eb",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/bot",
+              "concepts/context",
+              "concepts/middleware",
+              "concepts/filter-queries",
+              "concepts/sessions"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/keyboards",
+              "features/inline-keyboards",
+              "features/inline-queries",
+              "features/commands",
+              "features/files",
+              "features/error-handling"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/long-polling",
+              "deployment/webhooks",
+              "deployment/platforms"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/plugins",
+              "advanced/scaling",
+              "advanced/transformers",
+              "advanced/custom-contexts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core Classes",
+            "pages": [
+              "api/bot",
+              "api/context",
+              "api/composer",
+              "api/api"
+            ]
+          },
+          {
+            "group": "Helpers",
+            "pages": [
+              "api/keyboard",
+              "api/inline-keyboard",
+              "api/input-file",
+              "api/session"
+            ]
+          },
+          {
+            "group": "Types",
+            "pages": [
+              "api/filter-types",
+              "api/middleware-types",
+              "api/telegram-types"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Type-safe middleware system",
+    "Powerful filter queries for message handling",
+    "Built-in session management",
+    "Custom and inline keyboard builders",
+    "Support for both Node.js and Deno",
+    "Long polling and webhook support",
+    "Plugin ecosystem",
+    "Comprehensive error handling"
+  ],
+  "publicApiSurface": [
+    "Bot",
+    "Context",
+    "Composer",
+    "Api",
+    "Keyboard",
+    "InlineKeyboard",
+    "InputFile",
+    "session",
+    "lazySession",
+    "webhookCallback",
+    "BotError",
+    "GrammyError",
+    "HttpError"
+  ]
+}
